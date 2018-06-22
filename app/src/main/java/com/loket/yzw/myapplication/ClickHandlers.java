@@ -6,9 +6,11 @@ import android.widget.Toast;
 
 public class ClickHandlers {
     Context context;
+    Place place;
 
-    public ClickHandlers(Context context) {
+    public ClickHandlers(Context context, Place place) {
         this.context = context;
+        this.place = place;
     }
 
     public void onImageClick(View view) {
@@ -22,5 +24,9 @@ public class ClickHandlers {
     public boolean onButtonLongPressed(View view) {
         Toast.makeText(context, "Button long pressed!", Toast.LENGTH_SHORT).show();
         return false;
+    }
+
+    public void onClickToChangeName(View view) {
+        place.setName("Mountain View");
     }
 }

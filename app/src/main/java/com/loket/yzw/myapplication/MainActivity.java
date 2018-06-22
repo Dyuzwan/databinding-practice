@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         place.setName("Sierra");
         place.setRating("5.0");
 
-        handlers = new ClickHandlers(this);
+        handlers = new ClickHandlers(this, place);
 
         mainBinding.setPlace(place);
         mainBinding.setHandlers(handlers);
