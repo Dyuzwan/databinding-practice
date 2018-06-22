@@ -1,8 +1,8 @@
 package com.loket.yzw.myapplication;
 
-public class User {
+public class Place {
     String name;
-    String email;
+    String rating;
 
     public String getName() {
         return name;
@@ -12,11 +12,11 @@ public class User {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public String getRating() {
+        return rating;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setRating(String rating) {
+        this.rating = rating;
     }
 }
