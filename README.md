@@ -19,4 +19,13 @@ Install android studio
 Java JDK and JRE
 ```
 
+Open your build.gradle (app level), edit:
+```
+android {
+    ....
+    dataBinding {
+        enabled = true
+    }
+}
+```
 
