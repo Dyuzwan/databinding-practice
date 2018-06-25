@@ -1,6 +1,6 @@
-# Android Databinding Practice
+# Android Databinding Practice - MVVM
 
-Simple practice using android databinding, remove your findviewbyid.
+Simple practice using android databinding and MVVM pattern, remove your findviewbyid.
 
 ## Getting Started
 

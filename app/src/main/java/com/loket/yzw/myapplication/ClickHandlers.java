@@ -1,6 +1,7 @@
 package com.loket.yzw.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.widget.Toast;
 
@@ -28,5 +29,9 @@ public class ClickHandlers {
 
     public void onClickToChangeName(View view) {
         place.setName("Mountain View");
+    }
+
+    public void onFabClick(View view) {
+        context.startActivity(new Intent(context, RegisterActivity.class));
     }
 }
